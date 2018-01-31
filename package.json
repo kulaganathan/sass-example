@@ -1,0 +1,15 @@
+{
+  "name": "sass-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "buildcss": "node-sass main.scss main.css",
+    "start-server": "http-server"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.10.0",
+    "node-sass": "^4.6.0",
+    "nodemon": "^1.12.1"
+  }
+}
